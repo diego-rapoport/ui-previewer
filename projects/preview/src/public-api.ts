@@ -2,4 +2,4 @@
  * Public API Surface of preview
  */
 
-export * from './lib/provide-ui-previewer';
+export { provideUiPreviewer } from './lib/provide-ui-previewer';
