@@ -17,15 +17,6 @@ import { UI_TEST_CONFIG } from './ui-previewer.config';
     </div>
   `,
   styles: `
-    :host {
-      /* --ui-previewer-gap-tabs: 0; */
-      /* --ui-previewer-padding-tabs: .5rem; */
-      /* --ui-previewer-border-tabs: .1rem solid black; */
-      /* --ui-previewer-bg-tabs: #ccc; */
-      /* --ui-previewer-deactivated-fg-tabs: black; */
-      /* --ui-previewer-activated-fg-tabs: black; */
-      /* --ui-previewer-rendered-border: 1px solid #ccc; */
-    }
 
     ul.tab-list {
       list-style: none;
@@ -43,7 +34,7 @@ import { UI_TEST_CONFIG } from './ui-previewer.config';
 
         &.active {
           color: var(--ui-previewer-activated-fg-tabs, black);
-          background-color: var(--ui-previewer-bg-tabs,#ccc);
+          background-color: var(--ui-previewer-bg-tabs, #ccc);
           font-weight: bold;
         }
       }
