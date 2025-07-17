@@ -61,3 +61,6 @@ export interface UITestConfig {
 }
 ```
 
+# UI Example
+
+![UI Example](./projects/preview/src/print_example.png "UI Example")
