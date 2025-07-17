@@ -41,6 +41,8 @@ export const appConfig: ApplicationConfig = {
 };
 ```
 
+This will create a new route on the root of your routes called `/ui-tests` that will make everything available.
+
 # Types
 
 ```
