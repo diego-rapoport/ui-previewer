@@ -63,4 +63,4 @@ export interface UITestConfig {
 
 # UI Example
 
-![UI Example](./projects/preview/src/print_example.png "UI Example")
+![UI Example](https://github.com/diego-rapoport/ui-previewer/blob/main/projects/preview/src/print_example.png "UI Example")
